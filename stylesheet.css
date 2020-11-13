@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.kb-cdn.com/imgviewer/NVpIM2ptOHhYRzVmUk5rM1NrNlFxYVV6enV4aGk2UFRJMmxPckdDUUVNWUIrOFI5K25tcDdrN3R5eE9qcG1kVXB6Q0J1QUpnMGIyZzRieVdJcXNDY04zTStzak5XbjErSk1HNHNuT0JJMXlYQ0Z3ZHNnOHFYdGhMUHRDZ3pkdldvVzY4WUppM29PUDlMc0lUdEExTUZjRGdZbFlBcm8zV1RZajBjVU9OMEZabW9idzRIeG1aZDhxSjZOSmMyZ1Z4UDBWM2Q2bVNkVGV4ZmNnclBQeVhCQT09?square=0");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;    
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
