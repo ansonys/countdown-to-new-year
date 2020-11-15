@@ -9,7 +9,7 @@ const newYears = '1 Jan 2021';
 function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
-
+// 新年まで何秒か
     const totalSeconds = (newYearsDate -currentDate) / 1000;
 
     const days = Math.floor(totalSeconds / 3600 / 24);
@@ -23,12 +23,12 @@ function countdown() {
     secondsEl.innerHTML = formatTime(seconds);
 }
 
-// 条件式 ? IfTrue : IfFalse
+// 条件式 ? IfTrueやった時 : IfFalseやった時
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
 
 countdown();
 // setInterval(関数function, 一定時間の指定ミリ秒[, 引数1, 引数2, …])
-// 1秒ごとにfunctionを繰り返す
+// (1000)1秒ごとにfunctionを繰り返す
 setInterval(countdown,1000);
